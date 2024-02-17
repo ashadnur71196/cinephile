@@ -30,6 +30,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+
+
 main {
     padding: 20px;
 }
@@ -89,6 +91,15 @@ a {
 }
 
 a:hover {
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+    background-color: #3D5777; /* Change background color on hover */
+    border: #3D5777 solid 1px; /* Add border on hover */
+    border-radius: 5px; /* Add border radius */
+    padding: 5px; /* Add padding */
+}
+
+a.active {
     text-decoration: none; /* Remove underline */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
     background-color: #3D5777; /* Change background color on hover */
