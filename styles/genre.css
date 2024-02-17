@@ -155,3 +155,9 @@ figcaption {
     text-align: center;
     /* Center the caption */
 }
+
+figcaption {
+    text-align: justify;
+    margin: 10px;
+}
+
