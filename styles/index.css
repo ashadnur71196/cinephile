@@ -1,0 +1,137 @@
+body {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #BFBFBF;
+}
+
+header {
+    background-color: #2C4264;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2vh;
+    margin-left: 2vh;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3vh;
+    color: rgb(117, 115, 255);
+    margin: 0 !important;
+    background: -webkit-linear-gradient(0deg, #4749d3 0%, #111827 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h4 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vh;
+    text-align: center;
+    margin: 0 !important;
+    background: -webkit-linear-gradient(0deg, #10403B 0%, #10403bd0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h6 {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: normal;
+}
+/* Flexbox Layout */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Grid Layout */
+.action-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* External Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; /* Remove underline */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add box shadow */
+    background-color: #3D5777; /* Change background color on hover */
+    border: #3D5777 solid 1px; /* Add border on hover */
+    border-radius: 5px; /* Add border radius */
+    padding: 5px; /* Add padding */
+}
+
+
+.float-container {
+    overflow: hidden;
+    /* Clearfix to contain floated elements */
+}
+
+.float-row {
+    display: flex;
+    /* Use flexbox to arrange items in a row */
+}
+
+.float-child {
+    flex: 1;
+    /* Each child takes an equal portion of the row */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* Adding shadow */
+}
+
+.float-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure the image covers the entire div */
+}
+
+img {
+    max-width: 75%;
+    /* Resize images to 50% of their original size */
+
+    height: auto;
+    /* Maintain aspect ratio */
+
+    display: block;
+    /* Remove extra space below image */
+    margin: auto;
+}
